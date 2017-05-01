@@ -1,19 +1,74 @@
 ---
-layout: default
+layout: default 
 ---
 
 <div class="home">
+    <div class="splash">
+        <img src="/assets/splash-text.svg" alt="Bournemouth University Digital Media Design Graduate Exhibition. 23-26 June 2017">
+        <span id="countdown"></span>
+    </div>
 
-  <h1 class="page-heading">Works</h1>
-
-  <ul class="post-list">
-    {% for work in site.works %}
-      <li>
-        <h2>
-          <a class="link" href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
+    <div class="wrapper">
+       <div class="about">
+          <h1>About</h1>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus inventore, voluptatum harum aspernatur. Molestias, necessitatibus. Fuga alias repellendus natus nostrum ut nam fugiat officiis? Veniam laborum asperiores ipsa commodi necessitatibus.</p>
+           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus inventore, voluptatum harum aspernatur. Molestias, necessitatibus. Fuga alias repellendus natus nostrum ut nam fugiat officiis? Veniam laborum asperiores ipsa commodi necessitatibus.</p>
+       </div>
+    </div>
+        
+        
+    <div class="works">
+       <div class="wrapper">
+            <ul class="post-list">
+            {% for work in site.works %}
+            <li>
+                <h2>
+                    <a class="link" href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a>
+                </h2>
+            </li>
+            {% endfor %}
+        </ul>
+        </div>
+    </div>
+        
 </div>
+
+
+
+
+
+
+
+<script src="/js/isotope.js"></script>
+<script>
+
+</script>
+<script>
+    // set the date we're counting down to
+    var target_date = new Date("Jun 23, 2017").getTime();
+    var days, hours, minutes, seconds;
+ 
+    var countdown = document.getElementById("countdown");
+ 
+    // update the tag with id "countdown" every 1 second
+    setInterval(function () {
+        // find the amount of "seconds" between now and target
+        var current_date = new Date().getTime();
+        var seconds_left = (target_date - current_date) / 1000;
+
+        // do some time calculations
+        days = parseInt(seconds_left / 86400);
+        seconds_left = seconds_left % 86400;
+
+        hours = parseInt(seconds_left / 3600);
+        seconds_left = seconds_left % 3600;
+
+        minutes = parseInt(seconds_left / 60);
+        seconds = parseInt(seconds_left % 60);
+
+        // format countdown string + set tag value
+        countdown.innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";  
+    }, 1000);
+    
+</script>
