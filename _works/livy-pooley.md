@@ -1,8 +1,9 @@
 ---
-layout: work
-title:  "Example"
-date:   2017-03-04 14:00:07 +0000
-categories: app swift
+title: Music stuff
+image: http://placehold.it/500x400
+author: Livy Pooley
+tagline: Its wonderful
+categories: installation
 ---
 Example is an app. Blah eiusmod proident eiusmod duis sit. Dolore qui ex ipsum officia consequat excepteur laborum non aute tempor aliqua nisi et. Culpa Lorem reprehenderit cillum et ullamco officia nisi nulla duis adipisicing.
 

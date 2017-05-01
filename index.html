@@ -19,15 +19,16 @@ layout: default
         
     <div class="works">
        <div class="wrapper">
-            <ul class="post-list">
+            <div class="works-grid">
             {% for work in site.works %}
-            <li>
+            <div class="work">
+               <img src="{{ work.image }}" alt="">
                 <h2>
                     <a class="link" href="{{ work.url | prepend: site.baseurl }}">{{ work.title }}</a>
                 </h2>
-            </li>
+            </div>
             {% endfor %}
-        </ul>
+            </div>
         </div>
     </div>
         

@@ -1,8 +1,9 @@
 ---
-layout: work
-title:  "Another Example"
-date:   2017-03-04 14:00:07 +0000
-categories: installation projection-mapping
+title: Song Stack
+image: http://placehold.it/500x400
+author: Lawrence Holmes
+tagline: app
+categories: app
 ---
 Another Example is an installation. Blah eiusmod proident eiusmod duis sit. Dolore qui ex ipsum officia consequat excepteur laborum non aute tempor aliqua nisi et. Culpa Lorem reprehenderit cillum et ullamco officia nisi nulla duis adipisicing.
 
