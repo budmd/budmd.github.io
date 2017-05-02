@@ -1,8 +1,9 @@
 ---
-title: Song Stack
+layout: default
+title: SongStack
 image: http://placehold.it/500x400
 author: Lawrence Holmes
-tagline: app
+tagline: Music discovery app
 categories: app
 ---
 Another Example is an installation. Blah eiusmod proident eiusmod duis sit. Dolore qui ex ipsum officia consequat excepteur laborum non aute tempor aliqua nisi et. Culpa Lorem reprehenderit cillum et ullamco officia nisi nulla duis adipisicing.

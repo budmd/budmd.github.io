@@ -1,6 +1,6 @@
 /**
- * Site header
- */
+* Site header
+*/
 
 .site-header {
     min-height: 80px;
@@ -76,8 +76,8 @@
 
 
 /**
- * Site footer
- */
+* Site footer
+*/
 
 .site-footer {
     border-top: 1px solid $grey-color-light;
@@ -145,8 +145,8 @@
 
 
 /**
- * Page content
- */
+* Page content
+*/
 
 .page-content {
     padding: 0 0 $spacing-unit;
@@ -176,8 +176,8 @@
 
 
 /**
- * Posts
- */
+* Posts
+*/
 
 .post-header {
     margin-bottom: $spacing-unit;
@@ -218,15 +218,10 @@
     text-align: center;
     padding: $spacing-unit*2 $spacing-unit/2;
     background: #13547a;
-    /* Old Browsers */
     background: -webkit-linear-gradient(left, #13547a, #80d0c7);
-    /*Safari 5.1-6*/
     background: -o-linear-gradient(left, #13547a, #80d0c7);
-    /*Opera 11.1-12*/
     background: -moz-linear-gradient(left, #13547a, #80d0c7);
-    /*Fx 3.6-15*/
     background: linear-gradient(to right, #13547a, #80d0c7);
-    /*Standard*/
     img {
         max-width: 420px;
     }
@@ -268,7 +263,7 @@
                 content: "";
                 display: block;
                 width: 70%;
-                border-top: 1px solid $text-color; 
+                border-top: 1px solid $text-color;
                 margin: 0 auto;
                 height: $spacing-unit
             }
@@ -278,7 +273,7 @@
                 content: "";
                 display: block;
                 width: 70%;
-                border-bottom: 1px solid $text-color; 
+                border-bottom: 1px solid $text-color;
                 margin: 0 auto;
                 height: $spacing-unit
             }
@@ -288,14 +283,59 @@
 
 .works {
     background-color: #eceef1;
+    text-align: center;
+    h1 {
+        padding: $spacing-unit 0;
+        margin: 0;
+    }
 }
 
 .works-grid {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: $spacing-unit;
     .work {
-        width: 33%;
-        padding: 10px;
+        width: calc(33% - 20px);
         box-sizing: border-box;
+        text-align: left;
+        background: white;
+        margin: $spacing-unit/3;
+        a {
+            color: $text-color;
+            letter-spacing: 2px;
+            h2, h3 {
+                font-weight: 800;
+            }
+            h2 {
+                margin: 0;
+            }
+            h2, h3, p {
+                padding: 0 $spacing-unit/3
+            }
+        }
+    }
+}
+
+.filter-button-group {
+    margin-bottom: $spacing-unit;
+    button {
+        border: none;
+        background: transparent;
+        font-size: 18px;
+        transition: color 0.2s;
+        padding: $spacing-unit/2;
+        &:hover {
+            color: #80d0c7;
+        }
+        &:active,
+        &:focus {
+            outline: transparent;
+        }
+        &.active {
+            font-weight: 800;
+            &:hover {
+                color: $text-color;
+            }
+        }
     }
 }

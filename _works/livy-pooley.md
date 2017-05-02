@@ -1,8 +1,9 @@
 ---
+layout: default
 title: Music stuff
 image: http://placehold.it/500x400
 author: Livy Pooley
-tagline: Its wonderful
+tagline: Wonderful music visualisation
 categories: installation
 ---
 Example is an app. Blah eiusmod proident eiusmod duis sit. Dolore qui ex ipsum officia consequat excepteur laborum non aute tempor aliqua nisi et. Culpa Lorem reprehenderit cillum et ullamco officia nisi nulla duis adipisicing.
