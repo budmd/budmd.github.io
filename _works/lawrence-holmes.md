@@ -1,6 +1,6 @@
 ---
 layout: default
-title: SongStack
+title: Songstack
 image: http://placehold.it/500x400
 author: Lawrence Holmes
 tagline: Music discovery app
