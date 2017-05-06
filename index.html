@@ -9,15 +9,15 @@ layout: default
     </div>
 
     <div class="wrapper">
-        <div class="about">
+        <section class="about">
             <h1>About</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus inventore, voluptatum harum aspernatur. Molestias, necessitatibus. Fuga alias repellendus natus nostrum ut nam fugiat officiis? Veniam laborum asperiores ipsa commodi necessitatibus.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus inventore, voluptatum harum aspernatur. Molestias, necessitatibus. Fuga alias repellendus natus nostrum ut nam fugiat officiis? Veniam laborum asperiores ipsa commodi necessitatibus.</p>
-        </div>
+        </section>
     </div>
 
 
-    <div class="works">
+    <section class="works">
         <div class="wrapper">
             <h1>Works</h1>
             <div class="button-group filter-button-group">
@@ -41,10 +41,18 @@ layout: default
                 {% endfor %}
             </div>
         </div>
-    </div>
-
+    </section>
 </div>
 
+<!--
+<div class="work-modal">
+    <div class="wrapper">
+        <div class="modal-content">
+            yo dood
+        </div>
+    </div>
+</div>
+-->
 
 
 
@@ -81,9 +89,6 @@ layout: default
         });
     });
 
-</script>
-
-<script>
     // set the date we're counting down to
     var target_date = new Date("Jun 23, 2017").getTime();
     var days, hours, minutes, seconds;
