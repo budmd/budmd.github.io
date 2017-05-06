@@ -216,6 +216,8 @@
 
 .splash {
     text-align: center;
+    position: relative;
+    overflow: hidden;
     padding: $spacing-unit*2 $spacing-unit/2;
     background: #13547a;
     background: -webkit-linear-gradient(left, #13547a, #80d0c7);
@@ -224,11 +226,35 @@
     background: linear-gradient(to right, #13547a, #80d0c7);
     img {
         max-width: 420px;
+        position: relative;
+    }
+}
+
+video#bgvid {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+//    background: url(/assets/splash--poster.jpg);
+    background-size: cover;
+}
+
+@media screen and (max-device-width: 800px) {
+    video#bgvid {
+        display: none;
     }
 }
 
 #countdown {
     display: block;
+    position: relative;
     color: white;
     letter-spacing: 11px;
     font-size: 28px;
@@ -303,13 +329,16 @@
         a {
             color: $text-color;
             letter-spacing: 2px;
-            h2, h3 {
+            h2,
+            h3 {
                 font-weight: 800;
             }
             h2 {
                 margin: 0;
             }
-            h2, h3, p {
+            h2,
+            h3,
+            p {
                 padding: 0 $spacing-unit/3
             }
         }
