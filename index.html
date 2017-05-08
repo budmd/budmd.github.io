@@ -54,15 +54,15 @@ layout: default
     <section class="contact" id="contact">
         <h1>Contact</h1>
 
-            <a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#112;&#101;&#114;&#107;&#105;&#110;&#115;&#64;&#98;&#111;&#117;&#114;&#110;&#101;&#109;&#111;&#117;&#116;&#104;&#46;&#97;&#99;&#46;&#117;&#107;?subject=DMD Graduate Exhibition'>
-                       <div class="tile">
+        <a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#115;&#112;&#101;&#114;&#107;&#105;&#110;&#115;&#64;&#98;&#111;&#117;&#114;&#110;&#101;&#109;&#111;&#117;&#116;&#104;&#46;&#97;&#99;&#46;&#117;&#107;?subject=DMD Graduate Exhibition'>
+            <div class="tile">
 
                 <img src="/assets/email-icon.png" alt="Contact">
                 <h2>Email</h2>
                 <p>Simon Perkins</p>
-                        </div>
+            </div>
 
-            </a>
+        </a>
     </section>
 </div>
 
@@ -256,6 +256,8 @@ layout: default
     var $works = $('.works-grid').isotope({
         // options
         itemSelector: '.work',
+        percentPosition: true,
+        stagger: 30,
         layoutMode: 'fitRows'
     });
 
@@ -279,6 +281,44 @@ layout: default
             $(this).addClass('active');
         });
     });
+
+
+    // Select all links with hashes
+    $('a[href*="#"]')
+        // Remove links that don't actually link to anything
+        .not('[href="#"]')
+        .not('[href="#0"]')
+        .click(function(event) {
+            // On-page links
+            if (
+                location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') &&
+                location.hostname == this.hostname
+            ) {
+                // Figure out element to scroll to
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                // Does a scroll target exist?
+                if (target.length) {
+                    // Only prevent default if animation is actually gonna happen
+                    event.preventDefault();
+                    $('html, body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000, function() {
+                        // Callback after animation
+                        // Must change focus!
+                        var $target = $(target);
+                        $target.focus();
+                        if ($target.is(":focus")) { // Checking if the target was focused
+                            return false;
+                        } else {
+                            $target.attr('tabindex', '-1'); // Adding tabindex for elements not focusable
+                            $target.focus(); // Set focus again
+                        };
+                    });
+                }
+            }
+        });
+
 
     // set the date we're counting down to
     var target_date = new Date("Jun 23, 2017").getTime();

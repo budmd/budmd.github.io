@@ -281,6 +281,15 @@ section {
         text-align: left;
         background: white;
         margin: $spacing-unit/3;
+        @include media-query($on-laptop) {
+            width: calc(50% - 20px);
+        }
+        @include media-query($on-palm) {
+            width: calc(100% - 20px);
+        }
+        img {
+            width: 100%;
+        }
         a {
             color: $text-color;
             letter-spacing: 2px;
