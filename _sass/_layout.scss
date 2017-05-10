@@ -306,11 +306,12 @@ section {
             }
             h2 {
                 margin: 0;
+                padding-top: $spacing-unit
             }
             h2,
             h3,
             p {
-                padding: 0 $spacing-unit/3
+                padding: 0 $spacing-unit
             }
         }
     }
