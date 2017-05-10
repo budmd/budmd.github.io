@@ -304,14 +304,15 @@ section {
                 font-weight: 800;
                 transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
             }
-            h2 {
-                margin: 0;
-                padding-top: $spacing-unit
-            }
+            
             h2,
             h3,
             p {
-                padding: 0 $spacing-unit
+                padding: 0 20px;
+            }
+            h2 {
+                margin: 0;
+                padding-top: 20px;
             }
         }
     }
