@@ -1,4 +1,8 @@
 
+body.modalActive {
+  overflow: hidden;
+}
+
 #modal {
   position: fixed;
   width: 100%;
