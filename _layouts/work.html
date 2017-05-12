@@ -4,13 +4,22 @@ layout: default
 <article class="work">
 
   <header class="header">
+    <img class="header-image" src="http://placehold.it/1920x1080" alt="{{ page.title }}">
     <h1 class="title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="meta">{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    <h4 class="tagline">{{ page.tagline }}</h4>
   </header>
 
   <div class="content" itemprop="articleBody">
     {{ content }}
+
+    <div class="author">
+      <div class="author-image">
+        <img src="http://placehold.it/600x600" alt="{{ page.author  }}">
+      </div>
+      <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+    </div>
   </div>
+
 
   {% if page.previous.url %}
     <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>

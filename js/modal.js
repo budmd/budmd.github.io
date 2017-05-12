@@ -44,9 +44,6 @@ var displayWorkModal = function(data) {
 var changePageContent = function(data) {
   var content = $(data).filter('.page-content').html();
   $('.page-content').html(content);
-  $('#modal-click').click(function(){
-    backToHome()
-  });
 }
 
 var backToHome = function() {

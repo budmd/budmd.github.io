@@ -7,6 +7,8 @@
   left: 0;
   background-color: rgba(155,155,155,0.5);
 
+  overflow: scroll;
+
   padding-top: 80px;
 
   opacity: 0;
@@ -27,7 +29,7 @@
 
     .modal-close-button {
       cursor: pointer;
-      position: absolute;
+      position: fixed;
       top: 30px;
       left: 30px;
       height: 30px;
@@ -43,11 +45,12 @@
 }
 
 #modal-content {
-  max-width: 1072px;
-  padding: 3rem;
+  max-width: 800px;
   margin: 0 auto;
   overflow: scroll;
   background-color: white;
+
+  margin-bottom: 160px;
 
   .prev, .next {
     position: fixed;
