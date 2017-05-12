@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: work
 title: Music stuff
 image: http://placehold.it/500x400
 author: Livy Pooley

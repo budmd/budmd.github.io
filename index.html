@@ -4,9 +4,6 @@ layout: default
 
 <div class="home">
     <div class="splash">
-        <video playsinline autoplay muted loop poster="/assets/splash--poster.jpg" id="bgvid">
-            <source src="/assets/splash2.mp4" type="video/mp4">
-        </video>
         <img src="/assets/splash-text.svg" alt="Bournemouth University Digital Media Design Graduate Exhibition. 23-26 June 2017">
         <span id="countdown"></span>
     </div>
@@ -68,23 +65,13 @@ layout: default
     </section>
 </div>
 
-
-<div class="work-modal">
-    <div class="wrapper">
-        <div class="modal-content">
-           <p>Modal</p>
-            {{ layout.title }}
-            {{ page.title }}
-            {{ content }}
-        </div>
-    </div>
+<div id="modal">
+  <div id="modal-click" onclicl="backToHome();">
+    <span class="modal-close-button">&times;</span>
+  </div>
+  <div id="modal-content"></div>
 </div>
 
-
-
-
-
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script src="/js/isotope.js"></script>
 <script src="/js/imagesLoaded.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB973waf85HgWRC76BEyUo0XOhi2wDBo30&callback=initMap"></script>

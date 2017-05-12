@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: work
 title: WeCook
 image: http://placehold.it/500x400
 author: Matt Lean

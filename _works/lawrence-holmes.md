@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: work
 title: Songstack
 image: http://placehold.it/500x400
 author: Lawrence Holmes
