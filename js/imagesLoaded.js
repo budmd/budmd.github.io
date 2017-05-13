@@ -165,8 +165,8 @@
         itemSelector: '.work',
         percentPosition: true,
         stagger: 30,
-//        layoutMode: 'masonry'
-        layoutMode: 'fitRows'
+        layoutMode: 'masonry'
+//        layoutMode: 'fitRows'
     });
 
     // layout Isotope after each image loads
