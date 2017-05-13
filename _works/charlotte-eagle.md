@@ -6,7 +6,7 @@ tagline: Multimedia installation
 categories: installation
 
 email: charlieeagle14@yahoo.com
-portfolio: charlieeagle14@yahoo.com
+portfolio: http://charlotteeagle.co.uk
 
 photo: true
 ---
