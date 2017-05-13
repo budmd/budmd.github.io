@@ -165,6 +165,7 @@
         itemSelector: '.work',
         percentPosition: true,
         stagger: 30,
+//        layoutMode: 'masonry'
         layoutMode: 'fitRows'
     });
 

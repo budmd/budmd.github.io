@@ -1,11 +1,14 @@
 ---
 layout: work
 title: Gormley to Glitch
-image: http://placehold.it/500x400
 author: Kurt Stubbings
-tagline: Glitch Art
+tagline: Glitch art Installation
 categories: installation
-body: this is the main body
+
+email: kurtstubbings@gmail.com
+portfolio: http://www.kurtstubbings.com
+
+photo: true
+
 ---
 
-# TEST
