@@ -462,7 +462,13 @@ section {
 }
 
 .social-links {
+    margin-top: $spacing-unit/2; 
     span {
+        a {
+            text-align: center;
+            display: block;
+            padding: $spacing-unit/2 0 ;
+        }
         &.email {
             a {
                 &::before {
@@ -473,18 +479,19 @@ section {
                     background-position: center;
                     width: 30px;
                     height: 23px;
-                    display: inline-block;
-                    margin: 5px 10px 5px 5px;
-                    position: relative;
-                    top: 9px;
+                    display: block;
+                    margin: 0 auto;
+                    //                    margin: 5px 10px 5px 5px;
+                    //                    position: relative;
+                    //                    top: 9px;
                 }
             }
         }
         &.portfolio {
-            float: right;
-            text-align: right;
+            //            float: right;
+            //            text-align: right;
             a {
-                &::after {
+                &::before {
                     content: "";
                     background: url(../assets/portfolio-icon.png);
                     background-repeat: no-repeat;
@@ -492,10 +499,11 @@ section {
                     background-position: center;
                     width: 24px;
                     height: 23px;
-                    display: inline-block;
-                    margin: 5px 5px 5px 10px;
-                    position: relative;
-                    top: 9px;
+                    display: block;
+                    margin: 0 auto;
+                    //                    margin: 5px 5px 5px 10px;
+                    //                    position: relative;
+                    //                    top: 9px;
                 }
             }
         }
