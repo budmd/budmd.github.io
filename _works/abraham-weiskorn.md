@@ -9,7 +9,7 @@ categories: app
 email: weiskornabraham@gmail.com
 portfolio: https://weiskornabraham.myportfolio.com
 
-photo: false
+photo: true
 ---
 
 ARNAV is a procedurally-generated visual experience made in Unreal Engine, it takes its users on a journey of self-discovery and relaxation. Experience a course that self-generates as your character slowly moves forward. 
