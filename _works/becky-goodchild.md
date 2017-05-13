@@ -7,6 +7,8 @@ categories: graphics
 
 email: beckygoodchild@outlook.com
 portfolio: https://www.linkedin.com/in/becky-goodchild-aa68b182/
+
+photo: true
 ---
 
 This is an illustration portfolio featuring my favourite humans, capturing this moment in time as I am finishing my degree and beginning the next chapter in my life.

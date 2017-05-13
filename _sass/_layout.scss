@@ -412,6 +412,9 @@ section {
         padding: 3rem;
         margin: 0 auto;
         max-width: 800px;
+        @include media-query($on-768) {
+            padding: 1rem;
+        }
     }
     .author {
         margin: 0 auto;
@@ -433,6 +436,16 @@ section {
             }
         }
     }
+    .tagline {
+        &::after {
+            content: "";
+            display: block;
+            width: 70%;
+            border-bottom: 1px solid #333;
+            margin: 0 auto;
+            height: 30px;
+        }
+    }
     .prev,
     .next {
         position: fixed;
@@ -445,5 +458,54 @@ section {
     }
     .next {
         right: 0;
+    }
+}
+
+.social-links {
+    margin-top: $spacing-unit/2; 
+    span {
+        a {
+            text-align: center;
+            display: block;
+            padding: $spacing-unit/2 0 ;
+        }
+        &.email {
+            a {
+                &::before {
+                    content: "";
+                    background: url(../assets/email-icon-2.png);
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    background-position: center;
+                    width: 30px;
+                    height: 23px;
+                    display: block;
+                    margin: 0 auto;
+                    //                    margin: 5px 10px 5px 5px;
+                    //                    position: relative;
+                    //                    top: 9px;
+                }
+            }
+        }
+        &.portfolio {
+            //            float: right;
+            //            text-align: right;
+            a {
+                &::before {
+                    content: "";
+                    background: url(../assets/portfolio-icon.png);
+                    background-repeat: no-repeat;
+                    background-size: 100%;
+                    background-position: center;
+                    width: 24px;
+                    height: 23px;
+                    display: block;
+                    margin: 0 auto;
+                    //                    margin: 5px 5px 5px 10px;
+                    //                    position: relative;
+                    //                    top: 9px;
+                }
+            }
+        }
     }
 }
