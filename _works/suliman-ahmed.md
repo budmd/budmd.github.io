@@ -5,7 +5,6 @@ author: Suliman Ahmed
 tagline: Moral Lessons Meet Digital illustrations 
 categories: graphics
 
-email: kurtstubbings@gmail.com
 portfolio: https://www.linkedin.com/in/sulimanahmed/
 
 photo: true
