@@ -5,8 +5,8 @@ author: Chase Teera
 tagline: Food waste app for iOS
 categories: app
 
-email: chace.teera@hotmail.co.uk
-portfolio: http://chaceteera.wordpress.com
+email: hello@chaceteera.com
+portfolio: http://www.chaceteera.com
 
 photo: true
 
