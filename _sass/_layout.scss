@@ -264,6 +264,36 @@ section {
     }
 }
 
+.eventbrite {
+    padding: $spacing-unit 0;
+    text-align: center;
+    color: #fff;
+    background: #13547a;
+    background: -webkit-linear-gradient(left, #13547a, #80d0c7);
+    background: -o-linear-gradient(left, #13547a, #80d0c7);
+    background: -moz-linear-gradient(left, #13547a, #80d0c7);
+    background: linear-gradient(to right, #13547a, #80d0c7);
+    p:first-child {
+        padding-top: $spacing-unit/2;
+        padding-bottom: $spacing-unit;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+    a {
+        padding: $spacing-unit/2;
+        border: 3px solid white;
+        color: white;
+        text-transform: uppercase;
+        transition: all 0.2s;
+        display: inline-block;
+        &:hover {
+            text-decoration: none;
+            background: white;
+            color: #80d0c7;
+        }
+    }
+}
+
 .works,
 .contact {
     background-color: #eceef1;
@@ -462,12 +492,12 @@ section {
 }
 
 .social-links {
-    margin-top: $spacing-unit/2; 
+    margin-top: $spacing-unit/2;
     span {
         a {
             text-align: center;
             display: block;
-            padding: $spacing-unit/2 0 ;
+            padding: $spacing-unit/2 0;
         }
         &.email {
             a {
