@@ -3,7 +3,7 @@ layout: work
 title: I'm Wearing This
 author: Suzanne Niccolls
 tagline: UX System Design
-categories: App
+categories: app
 
 email: sniccolls1@hotmail.co.uk
 portfolio: http://www.suzanneniccolls.com

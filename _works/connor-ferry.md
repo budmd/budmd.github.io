@@ -3,7 +3,7 @@ layout: work
 title: Mod-Jobs
 author: Connor Ferry
 tagline: Automotive services on-demand
-categories: 
+categories: app
 
 email: connorferry8@me.com
 portfolio: http://www.connorferry.co.uk

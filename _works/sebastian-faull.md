@@ -3,7 +3,7 @@ layout: work
 title: Inktive
 author: Sebastian Faull
 tagline: A tattoo discovery app
-categories: App
+categories: app
 
 email: seb_faull@hotmail.co.uk
 portfolio: http://sebfaull.wixsite.com/portfolio 
