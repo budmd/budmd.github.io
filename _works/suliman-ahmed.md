@@ -6,6 +6,7 @@ tagline: Moral Lessons Meet Digital illustrations
 categories: graphics
 
 portfolio: https://www.linkedin.com/in/sulimanahmed/
+email: suliman.ahmed@hotmail.co.uk
 
 photo: true
 
