@@ -12,6 +12,4 @@ photo: true
 
 ---
 
-Drool™ is an IOS application that empowers users to share all their favourite recipes and food cravings. 
-
-Whether it’s the succulence of your favourite food or the crunch of your guilty pleasure, if you believe your food recipes stimulates the taste spuds, hitting that saliva spilling reaction you are looking for, take a bite out of ‘Drool’. 
+Drool, a social media app that allows users to post, view and save their desires when it comes to food. From the point of logging in you will be immersed in the world of Food, viewing interactive images and videos that show off the most unique user generated content. Plus the ability to post your own appetizing foods opens the chance to show to people what you are really into…with food that is.
