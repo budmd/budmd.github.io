@@ -7,7 +7,7 @@ tagline: Bar discovery app
 categories: app
 
 email: sisan@live.co.uk
-portfolio: http://alexsisan.github.io
+portfolio: http://alexsisan.co.uk
 project: http://www.boozebible.co.uk
 
 photo: true
