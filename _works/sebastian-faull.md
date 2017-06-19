@@ -6,7 +6,7 @@ tagline: A tattoo discovery app
 categories: app
 
 email: seb_faull@hotmail.co.uk
-portfolio: http://sebfaull.wixsite.com/portfolio 
+portfolio: http://www.sebfaull.co.uk
 
 photo: true
 ---
