@@ -6,7 +6,7 @@ tagline: Classical architecture projection mapping
 categories: installation
 
 email: LaurenButton95@gmail.com
-portfolio: https://www.behance.net/LaurenButte604
+portfolio: https://www.behance.net/LaurenButte604q
 
 photo: true
 
